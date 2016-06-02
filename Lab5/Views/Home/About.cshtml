@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = null;
+    
+}
+@Html.ActionLink("Ввод", "Index", "Home")
+<!DOCTYPE html>
+<html>
+<body>
+    <div>
+       @foreach (string line in ViewBag.Lines)
+{
+    <p>@line</p>
+}
+    </div>
+</body>
+</html>>
